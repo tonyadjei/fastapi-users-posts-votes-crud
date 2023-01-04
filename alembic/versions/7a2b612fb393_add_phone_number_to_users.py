@@ -1,8 +1,8 @@
-"""auto add phone_number in users table
+"""add phone number to users
 
-Revision ID: 2b8bcc2b48b2
-Revises: 040356fd7089
-Create Date: 2022-08-04 17:50:10.075720
+Revision ID: 7a2b612fb393
+Revises: 6d25f07a6382
+Create Date: 2023-01-02 15:57:08.983999
 
 """
 from alembic import op
@@ -10,8 +10,8 @@ import sqlalchemy as sa
 
 
 # revision identifiers, used by Alembic.
-revision = '2b8bcc2b48b2'
-down_revision = '040356fd7089'
+revision = '7a2b612fb393'
+down_revision = '6d25f07a6382'
 branch_labels = None
 depends_on = None
 

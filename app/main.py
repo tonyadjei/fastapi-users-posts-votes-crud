@@ -7,6 +7,7 @@ from .config import settings
 
 # If we use Alembic to handle our database migrations,
 # we no longer need sqlalchemy to create the models for us in the initial stage (when we run the server for the first time)
+# hence we would not need the code below
 # models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
