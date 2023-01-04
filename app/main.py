@@ -16,7 +16,7 @@ origins = ["*"]
 
 @app.get("/")
 def root():
-    return {"msg": "hello world"}
+    return {"msg": "hello universe!!!!"}
 
 
 app.add_middleware(
